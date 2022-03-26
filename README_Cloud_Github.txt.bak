@@ -2,4 +2,6 @@ After reading lots of guides and tutorials, I was able to properly set up a stat
 There were a lot of parts of the service I had to research because my website would not host correctly in the process.
 Deploying the site using S3 required me to find how to properly configure my S3 buckets and redirect correctly.
 My biggest problem was getting the endpoint to launch. It would just show an error page. I had to remove the folder in S3 to fix it.
-After removing the folder, I uploaded the files individually and that fixed the issue.
+After removing the folder, I uploaded the files individually and that fixed the issue. In trying to get my domain secured by using the 
+Certificate Manager and Cloud services, I accidentally made my endpoint in S3 broken. After reviewing the AWS and Youtube directions
+on how to get the static website hosted again, I was finally able to secure my domain with the aforementioned AWS services.
