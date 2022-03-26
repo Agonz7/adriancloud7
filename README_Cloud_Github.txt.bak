@@ -1,0 +1,5 @@
+After reading lots of guides and tutorials, I was able to properly set up a static website using AWS S3. 
+There were a lot of parts of the service I had to research because my website would not host correctly in the process.
+Deploying the site using S3 required me to find how to properly configure my S3 buckets and redirect correctly.
+My biggest problem was getting the endpoint to launch. It would just show an error page. I had to remove the folder in S3 to fix it.
+After removing the folder, I uploaded the files individually and that fixed the issue.
